@@ -1,13 +1,17 @@
 body {
     font-family: Roboto, sans-serif;
+    margin: 0px;
 }
 
 .header, .hero, .footer {
     display: flex;
-    padding: 10px 80px;
     background-color: #1F2937;
     margin: 0 auto;
     max-width: 750px;
+}
+
+.header {
+    padding: 5px 80px;
 }
 
 .logo {
@@ -24,4 +28,41 @@ ul {
     flex: 1;
     justify-content: flex-end;
     gap: 15px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero {
+    gap: 30px;
+    padding: 80px;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    flex:1;
+}
+
+.hero-img {
+    display: flex;
+    align-items:center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 175px;
+    border-radius: 10px;
 }
