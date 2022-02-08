@@ -37,6 +37,12 @@ ul {
     gap: 15px;
 }
 
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
 h1 {
     font-size: 48px;
     font-weight: bolder;
